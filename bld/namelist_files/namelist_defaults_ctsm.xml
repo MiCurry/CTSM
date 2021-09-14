@@ -803,6 +803,11 @@ attributes from the config_cache.xml file (with keys converted to upper-case).
 >hgrid=0.9x1.25 maxpft=79 mask=gx1v7 use_cn=.true. use_crop=.true. irrigate=.true. glc_nec=10
 </init_interp_attributes>
 
+<!-- MPAS -->
+<init_interp_attributes sim_year="2000" use_cndv=".false." use_fates=".false." lnd_tuning_mode="clm5_0_cam6.0"
+			hgrid="mpasa480"
+>hgrid=0.9x1.25 maxpft=79 mask=gx1v7 use_cn=.true. use_nitrif_denitrif=.true. use_vertsoilc=.true. use_crop=.true. irrigate=.true. glc_nec=10
+</init_interp_attributes>
 
 
 <!-- Anything else should use the high resolution file, but just for CLM5.0 -->
@@ -1095,6 +1100,9 @@ lnd/clm2/surfdata_map/release-clm5.0.18/surfdata_1x1_numaIA_hist_78pfts_CMIP6_si
 <fsurdat hgrid="1x1_smallvilleIA" sim_year="2000" use_crop=".true." >
 lnd/clm2/surfdata_map/ctsm1.0.dev094-2-g633be0eb/surfdata_1x1_smallvilleIA_hist_78pfts_CMIP6_simyr2000_c200521.nc</fsurdat>
 
+<fsurdat hgrid="mpasa480"  sim_year="2000">
+lnd/clm2/surfdata_map/surfdata_mpasa480_hist_78pfts_CMIP6_simyr2000_c201001.nc</fsurdat>
+
 <fsurdat hgrid="ne16np4"                  sim_year="2000" use_crop=".true.">
 lnd/clm2/surfdata_map/release-clm5.0.18/surfdata_ne16np4_hist_78pfts_CMIP6_simyr2000_c190214.nc</fsurdat>
 <fsurdat hgrid="ne30np4"                  sim_year="2000" use_crop=".true.">
@@ -1139,6 +1147,9 @@ lnd/clm2/surfdata_map/release-clm5.0.18/surfdata_4x5_hist_16pfts_Irrig_CMIP6_sim
 
 <fsurdat hgrid="1x1_brazil"    sim_year="1850" use_crop=".false." irrigate=".true.">
 lnd/clm2/surfdata_map/release-clm5.0.18/surfdata_1x1_brazil_hist_16pfts_Irrig_CMIP6_simyr1850_c190214.nc</fsurdat>
+
+<fsurdat hgrid="mpasa480"                  sim_year="1850" use_crop=".true.">
+lnd/clm2/surfdata_map/surfdata_mpasa480_hist_78pfts_CMIP6_simyr1850_c201001.nc</fsurdat>
 
 <fsurdat hgrid="ne30np4"      sim_year="1850" use_crop=".false." irrigate=".true.">
 lnd/clm2/surfdata_map/release-clm5.0.18/surfdata_ne30np4_hist_16pfts_Irrig_CMIP6_simyr1850_c190303.nc</fsurdat>
@@ -2493,6 +2504,21 @@ lnd/clm2/surfdata_map/release-clm5.0.30/surfdata_ne0np4.CONUS.ne30x8_hist_78pfts
 >lnd/clm2/mappingdata/maps/ne120np4.pg3/map_5x5min_nomask_to_ne120np4.pg3_nomask_aave_da_c200426.nc</map>
 
 <!-- mapping files for ne120np4.pg3 END --> 
+
+<!-- mapping files for mpasa480 START added on Tue Oct  5 13:39:47 2021-->
+<!-- Created by lnd/clm/bld/namelist_files/createMapEntry.pl-->
+
+<map frm_hgrid="1km-merge-10min"    frm_lmask="HYDRO1K-merge-nomask"  to_hgrid="mpasa480"   to_lmask="nomask"
+>lnd/clm2/mappingdata/maps/mpasa480/map_1km-merge-10min_HYDRO1K-merge-nomask_to_mpasa480_nomask_aave_da_c200930.nc</map>
+<map frm_hgrid="10x10min"    frm_lmask="nomask"  to_hgrid="mpasa480"   to_lmask="nomask"
+>lnd/clm2/mappingdata/maps/mpasa480/map_10x10min_nomask_to_mpasa480_nomask_aave_da_c200930.nc</map>
+<map frm_hgrid="5x5min"    frm_lmask="nomask"  to_hgrid="mpasa480"   to_lmask="nomask"
+>lnd/clm2/mappingdata/maps/mpasa480/map_5x5min_nomask_to_mpasa480_nomask_aave_da_c200930.nc</map>
+
+<!-- mapping files for mpasa480 END -->
+
+
+
 <!-- =========================================  -->
 <!-- Defaults for modelio namelist              -->
 <!-- =========================================  -->
