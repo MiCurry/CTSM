@@ -1200,7 +1200,7 @@ lnd/clm2/surfdata_map/release-clm5.0.18/surfdata_1x1_numaIA_hist_78pfts_CMIP6_si
 <fsurdat hgrid="1x1_brazil"    sim_year="1850" use_crop=".true." >
 lnd/clm2/surfdata_map/release-clm5.0.18/surfdata_1x1_brazil_hist_78pfts_CMIP6_simyr1850_c190214.nc</fsurdat>
 
-<fsurdat hgrid="mpasa60"                   sim_year="1850" use_crop=".true." >
+<fsurdat hgrid="mpasa30"                   sim_year="1850" use_crop=".true." >
 lnd/clm2/surfdata_map/release-clm5.0.38/surfdata_mpasa30_hist_78pfts_CMIP6_simyr1850_c210602.nc</fsurdat>
 <fsurdat hgrid="mpasa60"                   sim_year="1850" use_crop=".true." >
 lnd/clm2/surfdata_map/release-clm5.0.38/surfdata_mpasa60_hist_78pfts_CMIP6_simyr1850_c210511.nc</fsurdat>
