@@ -59,7 +59,6 @@ attributes from the config_cache.xml file (with keys converted to upper-case).
 
 <!-- MPASA grids -->
 <scripgriddata hgrid="mpasa30"  lmask="nomask" >atm/cam/coords/mpasa30_SCRIP_desc.210601.nc</scripgriddata>
-<scripgriddata hgrid="mpasa60"  lmask="nomask" >atm/cam/coords/mpasa60_SCRIP_desc.210507.nc</scripgriddata>
 <scripgriddata hgrid="mpasa120" lmask="nomask" >atm/cam/coords/mpasa120_SCRIP_desc.200911.nc</scripgriddata>
 <scripgriddata hgrid="mpasa480" lmask="nomask" >atm/cam/coords/mpasa480_SCRIP_desc.200911.nc</scripgriddata>
 
