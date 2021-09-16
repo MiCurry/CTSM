@@ -35,6 +35,7 @@ module lnd_comp_nuopc
   use lnd_import_export      , only : advertise_fields, realize_fields, import_fields, export_fields
   use lnd_comp_shr           , only : mesh, model_meshfile, model_clock
   use perf_mod               , only : t_startf, t_stopf, t_barrierf
+  use shr_mem_mod            , only : record_memusage
 
   implicit none
   private ! except
@@ -385,6 +386,8 @@ contains
     character(len=*),parameter :: subname=trim(modName)//':(InitializeRealize) '
     !-------------------------------------------------------------------------------
 
+    call record_memusage(mpicom, 'lnd.0.initializeRealize-start.csv')
+
     rc = ESMF_SUCCESS
     call ESMF_LogWrite(subname//' called', ESMF_LOGMSG_INFO)
 
@@ -676,6 +679,8 @@ contains
 #endif
 
     call ESMF_LogWrite(subname//' done', ESMF_LOGMSG_INFO)
+
+    call record_memusage(mpicom, 'lnd.1.initializeRealize-end.csv')
 
   end subroutine InitializeRealize
 
