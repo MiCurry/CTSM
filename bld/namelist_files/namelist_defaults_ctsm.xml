@@ -2586,17 +2586,33 @@ use_crop=".true.">lnd/clm2/surfdata_map/ctsm5.1.dev038/landuse.timeseries_mpasa1
 
 <!-- mapping files for mpasa60 END -->
 
-<!-- mapping files for mpasa30 START added on Tue Oct  5 14:00:56 2021-->
-<!-- Created by lnd/clm/bld/namelist_files/createMapEntry.pl-->
+<!-- mapping files for mpasa30 START added on Wed Nov 17 09:49:02 2021-->
+<!-- Created by lnd/clm/bld/namelist_files/createMapEntry.pl--> 
 
-<map frm_hgrid="1km-merge-10min"    frm_lmask="HYDRO1K-merge-nomask"  to_hgrid="mpasa30"   to_lmask="nomask"
+<map frm_hgrid="1km-merge-10min"    frm_lmask="HYDRO1K-merge-nomask"  to_hgrid="mpasa30"   to_lmask="nomask" 
 >lnd/clm2/mappingdata/maps/mpasa30/map_1km-merge-10min_HYDRO1K-merge-nomask_to_mpasa30_nomask_aave_da_c210601.nc</map>
-<map frm_hgrid="5x5min"    frm_lmask="nomask"  to_hgrid="mpasa30"   to_lmask="nomask"
+<map frm_hgrid="0.25x0.25"    frm_lmask="nomask"  to_hgrid="mpasa30"   to_lmask="nomask" 
+>lnd/clm2/mappingdata/maps/mpasa30/map_0.25x0.25_nomask_to_mpasa30_nomask_aave_da_c211110.nc</map>
+<map frm_hgrid="0.125x0.125"    frm_lmask="nomask"  to_hgrid="mpasa30"   to_lmask="nomask" 
+>lnd/clm2/mappingdata/maps/mpasa30/map_0.125x0.125_nomask_to_mpasa30_nomask_aave_da_c211110.nc</map>
+<map frm_hgrid="0.5x0.5"    frm_lmask="nomask"  to_hgrid="mpasa30"   to_lmask="nomask" 
+>lnd/clm2/mappingdata/maps/mpasa30/map_0.5x0.5_nomask_to_mpasa30_nomask_aave_da_c211110.nc</map>
+<map frm_hgrid="5x5min"    frm_lmask="nomask"  to_hgrid="mpasa30"   to_lmask="nomask" 
+>lnd/clm2/mappingdata/maps/mpasa30/map_5x5min_nomask_to_mpasa30_nomask_aave_da_c211110.nc</map>
+<map frm_hgrid="10x10min"    frm_lmask="nomask"  to_hgrid="mpasa30"   to_lmask="nomask" 
+>lnd/clm2/mappingdata/maps/mpasa30/map_10x10min_nomask_to_mpasa30_nomask_aave_da_c211110.nc</map>
+<map frm_hgrid="3x3min"    frm_lmask="nomask"  to_hgrid="mpasa30"   to_lmask="nomask" 
+>lnd/clm2/mappingdata/maps/mpasa30/map_3x3min_nomask_to_mpasa30_nomask_aave_da_c211110.nc</map>
+<map frm_hgrid="1km-merge-10min"    frm_lmask="HYDRO1K-merge-nomask"  to_hgrid="mpasa30"   to_lmask="nomask" 
+>lnd/clm2/mappingdata/maps/mpasa30/map_1km-merge-10min_HYDRO1K-merge-nomask_to_mpasa30_nomask_aave_da_c211110.nc</map>
+<map frm_hgrid="0.9x1.25"    frm_lmask="nomask"  to_hgrid="mpasa30"   to_lmask="nomask" 
+>lnd/clm2/mappingdata/maps/mpasa30/map_0.9x1.25_nomask_to_mpasa30_nomask_aave_da_c211110.nc</map>
+<map frm_hgrid="5x5min"    frm_lmask="nomask"  to_hgrid="mpasa30"   to_lmask="nomask" 
 >lnd/clm2/mappingdata/maps/mpasa30/map_5x5min_nomask_to_mpasa30_nomask_aave_da_c210601.nc</map>
-<map frm_hgrid="10x10min"    frm_lmask="nomask"  to_hgrid="mpasa30"   to_lmask="nomask"
+<map frm_hgrid="10x10min"    frm_lmask="nomask"  to_hgrid="mpasa30"   to_lmask="nomask" 
 >lnd/clm2/mappingdata/maps/mpasa30/map_10x10min_nomask_to_mpasa30_nomask_aave_da_c210601.nc</map>
 
-<!-- mapping files for mpasa30 END -->
+<!-- mapping files for mpasa30 END --> 
 
 <!-- mapping files for mpasa15-3.conus START added on Tue Oct  5 14:21:29 2021-->
 <!-- Created by lnd/clm/bld/namelist_files/createMapEntry.pl-->

@@ -51,7 +51,7 @@ EOF
 
    #~# print a unique start string in the XML comments 
    print "\n<!-- mapping files for $grid START added on $date-->";
-   print "\n<!-- Created by lnd/clm/bld/namelist_files/$scriptName--> \n\n";
+   print "\n<!-- Created by lnd/clm/bld/namelist_files/$scriptName-->\n\n";
 
    foreach my $foo ( @list ) {
       next if ($foo =~ m/^\./);  #~# skip anything in the directory with a leading or stand alone 'dot'
@@ -60,13 +60,13 @@ EOF
       my $from_mask = $tokens[2];
       if ( $from_mask =~ /nomask/ ) {
          if ( $tokens[5] eq "nomask" && $tokens[4] eq $grid ) {
-            print "<map frm_hgrid=\"$tokens[1]\"    frm_lmask=\"$from_mask\"  to_hgrid=\"$tokens[4]\"   to_lmask=\"$tokens[5]\" \n";
+            print "<map frm_hgrid=\"$tokens[1]\"    frm_lmask=\"$from_mask\"  to_hgrid=\"$tokens[4]\"   to_lmask=\"$tokens[5]\"\n";
             print ">$partialPath/$foo</map>\n";
          }
       }
    }
 
    #~# print a unique end string in the XML comments 
-   print "\n<!-- mapping files for $grid END --> \n";
+   print "\n<!-- mapping files for $grid END -->\n";
    closedir(DIR);
    exit 0;
