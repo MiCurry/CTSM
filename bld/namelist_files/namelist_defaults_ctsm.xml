@@ -1121,13 +1121,17 @@ lnd/clm2/surfdata_map/release-clm5.0.18/surfdata_1x1_numaIA_hist_78pfts_CMIP6_si
 lnd/clm2/surfdata_map/ctsm1.0.dev094-2-g633be0eb/surfdata_1x1_smallvilleIA_hist_78pfts_CMIP6_simyr2000_c200521.nc</fsurdat>
 
 <fsurdat hgrid="mpasa480"  sim_year="2000">
-lnd/clm2/surfdata_map/surfdata_mpasa480_hist_78pfts_CMIP6_simyr2000_c201001.nc</fsurdat>
+lnd/clm2/surfdata_map/surfdata_mpasa480_hist_78pfts_CMIP6_simyr2000_c211110.nc </fsurdat>
+<fsurdat hgrid="mpasa240"  sim_year="2000">
+lnd/clm2/surfdata_map/surfdata_mpasa240_hist_78pfts_CMIP6_simyr2000_c211115.nc</fsurdat>
 <fsurdat hgrid="mpasa120"  sim_year="2000">
-lnd/clm2/surfdata_map/release-clm5.0.34/surfdata_mpasa120_hist_78pfts_CMIP6_simyr2000_c201215.nc</fsurdat>
+lnd/clm2/surfdata_map/surfdata_mpasa120_hist_78pfts_CMIP6_simyr2000_c211108.nc</fsurdat>
 <fsurdat hgrid="mpasa60"  sim_year="2000">
-lnd/clm2/surfdata_map/ctsm5.1.dev038/surfdata_mpasa60_hist_78pfts_CMIP6_simyr2000_c210921.nc</fsurdat>
+lnd/clm2/surfdata_map/surfdata_mpasa60_hist_78pfts_CMIP6_simyr2000_c211110.nc</fsurdat>
 <fsurdat hgrid="mpasa30"   sim_year="2000">
-lnd/clm2/surfdata_map/ctsm5.1.dev038/surfdata_mpasa30_hist_78pfts_CMIP6_simyr2000_c210602.nc</fsurdat>
+lnd/clm2/surfdata_map/surfdata_mpasa30_hist_78pfts_CMIP6_simyr2000_c211111.nc</fsurdat>
+<fsurdat hgrid="mpasa15"   sim_year="2000">
+lnd/clm2/surfdata_map/surfdata_mpasa15_hist_78pfts_CMIP6_simyr2000_c211111.nc</fsurdat>
 <fsurdat hgrid="mpasa15-3-conus"   sim_year="2000">
 lnd/clm2/surfdata_map/ctsm5.1.dev038/surfdata_mpasa15-3.conus_hist_78pfts_CMIP6_simyr2000_c210611.nc</fsurdat>
 
@@ -1177,13 +1181,17 @@ lnd/clm2/surfdata_map/release-clm5.0.18/surfdata_4x5_hist_16pfts_Irrig_CMIP6_sim
 lnd/clm2/surfdata_map/release-clm5.0.18/surfdata_1x1_brazil_hist_16pfts_Irrig_CMIP6_simyr1850_c190214.nc</fsurdat>
 
 <fsurdat hgrid="mpasa480"                  sim_year="1850" use_crop=".true.">
-lnd/clm2/surfdata_map/surfdata_mpasa480_hist_78pfts_CMIP6_simyr1850_c201001.nc</fsurdat>
+lnd/clm2/surfdata_map/surfdata_mpasa480_hist_78pfts_CMIP6_simyr1850_c211110.nc</fsurdat>
+<fsurdat hgrid="mpasa240"                  sim_year="1850" use_crop=".true.">
+lnd/clm2/surfdata_map/surfdata_mpasa240_hist_78pfts_CMIP6_simyr1850_c211115.nc</fsurdat>
 <fsurdat hgrid="mpasa120"                  sim_year="1850" use_crop=".true.">
-lnd/clm2/surfdata_map/release-clm5.0.34/surfdata_mpasa120_hist_78pfts_CMIP6_simyr1850_c201215.nc</fsurdat>
+lnd/clm2/surfdata_map/surfdata_mpasa120_hist_78pfts_CMIP6_simyr1850_c211108.nc</fsurdat>
 <fsurdat hgrid="mpasa60"                   sim_year="1850" use_crop=".true.">
-lnd/clm2/surfdata_map/ctsm5.1.dev038/surfdata_mpasa60_hist_78pfts_CMIP6_simyr1850_c210921.nc</fsurdat>
+lnd/clm2/surfdata_map/surfdata_mpasa60_hist_78pfts_CMIP6_simyr1850_c211110.nc</fsurdat>
 <fsurdat hgrid="mpasa30"                   sim_year="1850" use_crop=".true." >
-lnd/clm2/surfdata_map/ctsm5.1.dev038/surfdata_mpasa30_hist_78pfts_CMIP6_simyr1850_c210602.nc</fsurdat>
+lnd/clm2/surfdata_map/surfdata_mpasa30_hist_78pfts_CMIP6_simyr1850_c211111.nc</fsurdat>
+<fsurdat hgrid="mpasa15"                   sim_year="1850" use_crop=".ture." >
+lnd/clm2/surfdata_map/surfdata_mpasa15_hist_78pfts_CMIP6_simyr1850_c211111.nc</fsurdat>
 <fsurdat hgrid="mpasa15-3-conus"           sim_year="1850" use_crop=".ture." >
 lnd/clm2/surfdata_map/ctsm5.1.dev038/surfdata_mpasa15-3.conus_hist_78pfts_CMIP6_simyr1850_c210611.nc</fsurdat>
 
@@ -1282,12 +1290,18 @@ lnd/clm2/surfdata_map/release-clm5.0.30/surfdata_ne0np4.CONUS.ne30x8_hist_78pfts
 <flanduse_timeseries hgrid="1x1_numaIA"    sim_year_range="1850-2000"
  use_crop=".true."   >lnd/clm2/surfdata_map/landuse.timeseries_1x1_numaIA_hist_78pfts_CMIP6_simyr1850-2015_c170917.nc</flanduse_timeseries>
 
+<flanduse_timeseries hgrid="mpasa480"       sim_year_range="1850-2000"
+ use_crop=".true."   >lnd/clm2/surfdata_map/landuse.timeseries_mpasa480_hist_78pfts_CMIP6_simyr1850-2015_c211110.nc</flanduse_timeseries>
+<flanduse_timeseries hgrid="mpasa240"       sim_year_range="1850-2000"
+ use_crop=".true."   >lnd/clm2/surfdata_map/landuse.timeseries_mpasa240_hist_78pfts_CMIP6_simyr1850-2015_c211115.nc</flanduse_timeseries>
 <flanduse_timeseries hgrid="mpasa120"       sim_year_range="1850-2000"
- use_crop=".true."   >lnd/clm2/surfdata_map/release-clm5.0.34/landuse.timeseries_mpasa120_hist_78pfts_CMIP6_simyr1850-2015_c201215.nc</flanduse_timeseries>
+ use_crop=".true."   >lnd/clm2/surfdata_map/landuse.timeseries_mpasa120_hist_78pfts_CMIP6_simyr1850-2015_c211108.nc</flanduse_timeseries>
 <flanduse_timeseries hgrid="mpasa60"        sim_year_range="1850-2000"
-use_crop=".true.">lnd/clm2/surfdata_map/ctsm5.1.dev038/landuse.timeseries_mpasa60_hist_78pfts_CMIP6_simyr1850-2015_c210921.nc</flanduse_timeseries>
+use_crop=".true.">lnd/clm2/surfdata_map/landuse.timeseries_mpasa60_hist_78pfts_CMIP6_simyr1850-2015_c211110.nc</flanduse_timeseries>
 <flanduse_timeseries hgrid="mpasa30"        sim_year_range="1850-2000"
-use_crop=".true.">lnd/clm2/surfdata_map/ctsm5.1.dev038/landuse.timeseries_mpasa30_hist_78pfts_CMIP6_simyr1850-2015_c210602.nc</flanduse_timeseries>
+use_crop=".true.">lnd/clm2/surfdata_map/landuse.timeseries_mpasa30_hist_78pfts_CMIP6_simyr1850-2015_c211111.nc</flanduse_timeseries>
+<flanduse_timeseries hgrid="mpasa15" sim_year_range="1850-2000"
+use_crop=".true.">lnd/clm2/surfdata_map/landuse.timeseries_mpasa15_hist_78pfts_CMIP6_simyr1850-2015_c211111.nc</flanduse_timeseres>
 <flanduse_timeseries hgrid="mpasa15-3-conus" sim_year_range="1850-2000"
 use_crop=".true.">lnd/clm2/surfdata_map/ctsm5.1.dev038/landuse.timeseries_mpasa15-3.conus_hist_78pfts_CMIP6_simyr1850-2015_c210611.nc</flanduse_timeseries>
 
